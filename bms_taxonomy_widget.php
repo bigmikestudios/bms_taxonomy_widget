@@ -51,11 +51,14 @@ class Bms_Taxonomy_Widget extends WP_Widget {
 			echo $before_title . $title . $after_title;
 			
 		$args = array(
+		  'title_li' => false,
 		  'taxonomy' => $taxonomy
 		);
-		wp_list_categories($args);
-			
-		
+		?>
+		<ul>
+        	<?php wp_list_categories($args); ?>
+        </ul>
+        <?php
 		echo $after_widget;
 	}
 
