@@ -29,7 +29,7 @@ class Bms_Taxonomy_Widget extends WP_Widget {
 		parent::__construct(
 	 		'bms_taxonomy_widget', // Base ID
 			'BMS Taxonomy Widget', // Name
-			array( 'description' => __( 'Creates a simple widget to display custom taxonomies.', 'text_domain' ), ) // Args
+			array( 'description' => __( 'Creates a simple widget to display custom taxonomies.', 'text_domain' ), ) // Args 
 		);
 	}
 
