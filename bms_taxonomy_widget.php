@@ -51,7 +51,7 @@ class Bms_Taxonomy_Widget extends WP_Widget {
 			echo $before_title . $title . $after_title;
 			
 		$args = array(
-		  'title_li' => false,
+		  'title_li' => false, 
 		  'taxonomy' => $taxonomy
 		);
 		?>
